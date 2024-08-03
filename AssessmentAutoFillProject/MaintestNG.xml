@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.listeners.Listeners" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Ankush/AssessmentAutoFillProject/src/test/java/com/cases/AssessmentAutoFill10_TC1.java">
+        <classes>
+            <class name="com.cases.demoTest">
+                <methods><include name="AssessmentAutoFill_10_TC1"/></methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Ankush/AssessmentAutoFillProject/src/test/java/com/cases/AssessmentAutoFill10_TC2.java">
+        <classes>
+            <class name="com.cases.demoTest">
+                <methods><include name="AssessmentAutoFill_10_TC2"/></methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Ankush/AssessmentAutoFillProject/src/test/java/com/cases/AssessmentAutoFill10_TC3.java">
+        <classes>
+            <class name="com.cases.demoTest">
+                <methods><include name="AssessmentAutoFill_10_TC3"/></methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Ankush/AssessmentAutoFillProject/src/test/java/com/cases/AssessmentAutoFill10_TC4.java">
+        <classes>
+            <class name="com.cases.demoTest">
+                <methods><include name="AssessmentAutoFill_10_TC4"/></methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
